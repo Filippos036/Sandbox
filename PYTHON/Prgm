@@ -1,0 +1,9 @@
+
+my_earth_weight = float(input(my_earth_weight))
+
+earth_gravity = 9.807
+moon_gravity = 1.622
+
+moon_weight = my_earth_weight / earth_gravity * moon_gravity
+
+print(f"Din vekt på månen er {moon_weight}kg")
